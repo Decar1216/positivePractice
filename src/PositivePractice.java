@@ -95,7 +95,34 @@ public class PositivePractice extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void QuotebtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_QuotebtnActionPerformed
-        // TODO add your handling code here:
+    int Rnum;
+    Rnum= (int)Math.round(Math.random()*7+1);
+    switch (Rnum){
+        case 1:
+        Quotelbl.setText("");
+            break;
+        case 2:
+        Quotelbl.setText("");
+            break;
+        case 3:
+        Quotelbl.setText("");
+           break;
+        case 4: 
+        Quotelbl.setText("");
+            break;
+        case 5:
+        Quotelbl.setText("");
+            break;
+        case 6:
+        Quotelbl.setText("");
+            break;
+        case 7:
+        Quotelbl.setText("");
+            break;
+        case 8:
+        Quotelbl.setText("");
+            break;
+        default:}
     }//GEN-LAST:event_QuotebtnActionPerformed
 
     /**
